@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <form action="${ctx}/user/login" method="post">
+   <p class="m-t-md" style="color:red;"><#if msg?exists>${msg}</#if></p>
+    	<input type="text"  name="username">
+    	<input type="text"  name="password">
+    	<input type="submit" value="提交">
+    </form>
+</body>
+</html>
